@@ -1,23 +1,31 @@
-# Trabajo Métodos Representación Visualización Espacial HHDD
+# Métodos Representación Visualización Espacial HHDD
 
-Profesor Manuel Díaz Ordoñez
+## Trabajo de evaluación curso 2021-22
 
-Parámetros de consulta:
-* Base de datos 1634-1857
-* Búsqueda avanzada: Ámbar
-  * English: Amber
-  * Danish: Bernstein
-  * Dutch: Barnstein
-  * French: Succin, ambre jaune
+Mercancía: **ámbar**[^1][^2]
+* Barnsteen (danés)
+* Bernstein (neerlandés)
 
-[Traducción de mercancías](http://www.soundtoll.nl/images/files/List%20of%20products.pdf)
+Periodo de tiempo: 1634-1857
 
-Temporalidad: 1634-1857
+## Contenido del repositorio
 
-Patrones de búsqueda:
-* `Ambe*`
-* `B*rnste*n`
+* `notebook.ipynb`: código para procesar datos en formato [Jupyter notebook](https://jupyter.org)
+* `coordinates.json`: caché de coordenadas longitud-latitud para los puertos contemplados en el estudio
+* `data/`: directorio con los archivos CSV originales con información sobre _cargoes_ y _assages_ relacionados con ámbar
+* `amber.csv` archivo con los datos resultantes del procesado de los CSV de entrada
+* `amber_port_destination.csv` archivo con el resumen de Kg de ámbar por puerto de destino
+* `amber_port_origin.csv` archivo con el resumen de Kg de ámbar por puerto de llegada
 
-No hay resultados para la versión francesa de Ámbar
+## Dependencias software
 
-Unidad de medida, [info](https://www.sizes.com/units/pund.htm)
+El código contenido en `notebook.ipynb` require de un entorno Python (>= 3.6) con las siguientes librerías:
+
+* `geopy`
+* `notebook`
+* `pandas`
+
+## Referencias
+
+[^1][Referencia de mercancías](http://www.soundtoll.nl/images/files/List%20of%20products.pdf) para Soundtoll Database
+[^2][Unidad de medida](https://www.sizes.com/units/pund.htm)
