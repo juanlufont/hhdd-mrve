@@ -27,5 +27,5 @@ El código contenido en `notebook.ipynb` require de un entorno Python (>= 3.6) c
 
 ## Referencias
 
-[^1][Referencia de mercancías](http://www.soundtoll.nl/images/files/List%20of%20products.pdf) para Soundtoll Database
-[^2][Unidad de medida](https://www.sizes.com/units/pund.htm)
+[^1]: [Referencia de mercancías](http://www.soundtoll.nl/images/files/List%20of%20products.pdf) para Soundtoll Database
+[^2]: [Unidad de medida](https://www.sizes.com/units/pund.htm)
